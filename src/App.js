@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { ProductContent } from './Components/ProductContent/ProductContent';
+import Card from './Components/Cards/Card';
+import jsonData from './products.json'
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductContent>
+        {jsonData.map( pro => {
+          return (
+            <Card key={pro.id} name={pro.name} oldPrice={pro.oldPrice} newPrice={pro.newPrice} img ={pro.img} />
+          )
+        })}
+      </ProductContent>
     </div>
   );
 }

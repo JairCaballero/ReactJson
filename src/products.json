@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Camisa",
+    "oldPrice": "100",
+    "newPrice": "40",
+    "img": "https://picsum.photos/180?grayscale"
+  },
+  {
+    "id": 2,
+    "name": "Pantalon",
+    "oldPrice": "70",
+    "newPrice": "100",
+    "img": "https://picsum.photos/180"
+  },
+  {
+    "id": 3,
+    "name": "Zapato",
+    "oldPrice": "250",
+    "newPrice": "100",
+    "img": "https://picsum.photos/180?grayscale"
+  },
+  {
+    "id": 4,
+    "name": "Pantaloneta",
+    "oldPrice": "130",
+    "newPrice": "80",
+    "img": "https://picsum.photos/180"
+  },
+  {
+    "id": 5,
+    "name": "Buso",
+    "oldPrice": "70",
+    "newPrice": "30",
+    "img": "https://picsum.photos/180?grayscale"
+  },
+  {
+    "id": 6,
+    "name": "Gafas",
+    "oldPrice": "150",
+    "newPrice": "100",
+    "img": "https://picsum.photos/180"
+  }
+]
